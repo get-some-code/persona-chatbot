@@ -1,5 +1,6 @@
 flask
+flask-cors
 python-dotenv
-google
+google-generative-ai
 gunicorn
 beautifulsoup4
