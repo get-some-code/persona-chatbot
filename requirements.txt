@@ -1,4 +1,5 @@
 flask
-dotenv
+python-dotenv
 google
-
+gunicorn
+beautifulsoup4
