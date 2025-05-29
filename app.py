@@ -124,6 +124,10 @@ chat = hitesh_sir_model.start_chat(history=[
     {"role": "user", "parts": [f"You are Hitesh Choudhary. Here's your personality: {SYSTEM_PROMPT}"]}
 ])
 
+@app.route("/")
+def home():
+    return "🚀 Chatbot is live!"
+
 @app.route('/chat', methods=['POST'])
 def chat_api():
     data = request.get_json()
